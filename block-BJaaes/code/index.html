@@ -11,56 +11,76 @@
       <header>
         <h1>Create Account</h1>
       </header>
-      <form>
+      <form action="">
         <div class="form-control">
-          <label for="text">Username</label>
-          <input type="text" name="username" placeholder="arya" />
-        </div>
-        <div class="form-control">
-          <label for="text">Name</label>
-          <input type="text" name="name" placeholder="Arya Stark" />
-        </div>
-        <div class="form-control">
-          <label for="text">Email</label>
-          <input
-            id="text"
-            type="email"
-            name="email"
-            placeholder="arya@stark.com"
-          />
-          <small>Email is not valid!</small>
-        </div>
-        <div class="form-control error">
-          <label for="text">Phone Number</label>
-          <input
-            id="password"
-            type="tel"
-            name="phone"
-            placeholder="Enter your password"
+          <label for="username">Username</label>
+          <br>
+          <input 
+          id="username"
+          type="text"
+          name="username"
+          placeholder="Arya"
           />
           <small></small>
         </div>
-        <div class="form-control error">
-          <label for="text">Password</label>
-          <input
-            id="password"
-            type="password"
-            name="password"
-            placeholder="Enter your password"
+        <div class="form-control">
+          <label for="name">Name</label>
+          <br>
+          <input 
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Arya Stark"
           />
           <small></small>
         </div>
-        <div class="form-control success">
-          <label for="text">Confirm Password</label>
-          <input
-            id="password"
-            type="password"
-            name="password-check"
-            placeholder="Confirm Password"
+        <div class="form-control">
+          <label for="email">Email Address</label>
+          <br>
+          <input 
+          id="email"
+          type="text"
+          name="email"
+          placeholder="arya@Stark.com"
           />
+          <small></small>
         </div>
-
-        <button type="submit">Submit</button>
+        <div class="form-control">
+          <label for="phone">Phone Number</label>
+          <br>
+          <input 
+          id="phone"
+          type="tel"
+          name="phone"
+          placeholder="Enter your number"
+          />
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <br>
+          <input 
+          id="password"
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+          />
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label for="pass-check">Confirm Password</label>
+          <br>
+          <input 
+          id="pass-check"
+          type="password"
+          name="passwordCheck"
+          placeholder="Confirm Password"
+          />
+          <small></small>
+        </div>
+        <div class="button-container">
+          <button>Submit</button>
+        </div>
       </form>
     </div>
     <script src="./script.js"></script>
